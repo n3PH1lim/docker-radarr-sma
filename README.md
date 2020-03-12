@@ -1,5 +1,5 @@
 
-# [sonarr-sma](https://github.com/d3fault/docker-radarr-sma)
+# [radarr-sma](https://github.com/d3fault/docker-radarr-sma)
 
 [Radarr](https://radarr.video) is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.
 
