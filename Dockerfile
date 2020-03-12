@@ -1,5 +1,5 @@
 ARG ffmpeg_tag=snapshot-ubuntu
-FROM jrottenberg/ffmpeg:${ffmpeg_tag} as ffmpeg
+FROM jrottenberg/ffmpeg:4.1-vaapi as ffmpeg
 FROM mdhiggins/radarr-sma:preview
 LABEL maintainer="d3fault"
 
