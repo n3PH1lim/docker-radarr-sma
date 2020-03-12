@@ -1,7 +1,7 @@
 ARG ffmpeg_tag=snapshot-ubuntu
 FROM jrottenberg/ffmpeg:${ffmpeg_tag} as ffmpeg
-FROM mdhiggins/sonarr-sma:preview
-LABEL maintainer="RandomNinjaAtk"
+FROM mdhiggins/radarr-sma:preview
+LABEL maintainer="d3fault"
 
 RUN \ 
 	# remove existing ffmpeg
@@ -34,5 +34,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8989
+EXPOSE 7878
 VOLUME /config
