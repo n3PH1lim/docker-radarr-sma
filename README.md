@@ -1,12 +1,12 @@
 
-# [RandomNinjaAtk/sonarr-sma](https://github.com/RandomNinjaAtk/docker-sonarr-sma)
+# [sonarr-sma](https://github.com/d3fault/docker-radarr-sma)
 
-[Sonarr](https://sonarr.tv/) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
+[Radarr](https://radarr.video) is an independent fork of Sonarr reworked for automatically downloading movies via Usenet and BitTorrent.
 
 
-[![sonarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png)](https://sonarr.tv/)
+[![radarr](https://github.com/Radarr/Radarr/blob/aphrodite/Logo/256.png)](https://radarr.video)
 
-This containers base image is provided by: [mdhiggins/sonarr-sma:preview](https://github.com/mdhiggins/sonarr-sma)
+This containers base image is provided by: [mdhiggins/radarr-sma:preview](https://github.com/mdhiggins/radarr-sma)
 
 
 ## Supported Architectures
@@ -41,7 +41,7 @@ Container images are configured using parameters passed at runtime (such as thos
 
 ## Application Setup
 
-Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
+Access the webui at `<your-ip>:7878`, for more information check out [Radarr](https://radarr.video).
 
 # Sonarr Configuration
 
